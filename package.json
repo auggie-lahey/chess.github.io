@@ -4,5 +4,8 @@
   "description": "chess via nostr",
   "author": "au9913",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {},
+  "scripts": {
+    "build": "webpack"
+  }
 }
