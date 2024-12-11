@@ -1,5 +1,9 @@
 name: Convert build files to APK and upload to Github Artifacts
-on: push
+on:
+  pull_request:
+    branches: [master]
+  push:
+    branches: [master]
 
 jobs:
   build:
